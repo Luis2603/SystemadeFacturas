@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>DocumentsControllerAdd</servlet-name>
+		<servlet-class>controller.documents.DocumentsControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DocumentsControllerAdd</servlet-name>
+		<url-pattern>/documents/add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DocumentsControllerAddQueue</servlet-name>
+		<servlet-class>controller.documents.DocumentsControllerAddQueue</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DocumentsControllerAddQueue</servlet-name>
+		<url-pattern>/documents/add/queue</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DocumentsControllerDelete</servlet-name>
+		<servlet-class>controller.documents.DocumentsControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DocumentsControllerDelete</servlet-name>
+		<url-pattern>/documents/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DocumentsControllerIndex</servlet-name>
+		<servlet-class>controller.documents.DocumentsControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DocumentsControllerIndex</servlet-name>
+		<url-pattern>/documents</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DocumentsControllerView</servlet-name>
+		<servlet-class>controller.documents.DocumentsControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DocumentsControllerView</servlet-name>
+		<url-pattern>/documents/view</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ProductsControllerAdd</servlet-name>
+		<servlet-class>controller.products.ProductsControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductsControllerAdd</servlet-name>
+		<url-pattern>/products/add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ProductsControllerDelete</servlet-name>
+		<servlet-class>controller.products.ProductsControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductsControllerDelete</servlet-name>
+		<url-pattern>/products/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ProductsControllerEdit</servlet-name>
+		<servlet-class>controller.products.ProductsControllerEdit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductsControllerEdit</servlet-name>
+		<url-pattern>/products/edit</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ProductsControllerIndex</servlet-name>
+		<servlet-class>controller.products.ProductsControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductsControllerIndex</servlet-name>
+		<url-pattern>/products</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ProductsControllerView</servlet-name>
+		<servlet-class>controller.products.ProductsControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductsControllerView</servlet-name>
+		<url-pattern>/products/view</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>UsersControllerAdd</servlet-name>
+		<servlet-class>controller.users.UsersControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerAdd</servlet-name>
+		<url-pattern>/users/add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerIndex</servlet-name>
+		<servlet-class>controller.users.UsersControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerIndex</servlet-name>
+		<url-pattern>/users</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerLogin</servlet-name>
+		<servlet-class>controller.users.UsersControllerLogin </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerLogin</servlet-name>
+		<url-pattern>/users/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerLogout</servlet-name>
+		<servlet-class>controller.users.UsersControllerLogout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerLogout</servlet-name>
+		<url-pattern>/users/logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
