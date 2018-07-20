@@ -67,7 +67,7 @@
 					<% } %>
 			</table>
 			<% } else { %>
-			<span class="heading">No hay Seminarios programados</span>
+			<span class="heading">No hay Usuarios registrados</span>
 			<% } %>
           
           

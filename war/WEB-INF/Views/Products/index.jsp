@@ -74,6 +74,8 @@
 				</tr>
 					<% } %>
 			</table>
+			<h4><a href="/products/add">Agregar producto</a></h4>
+			
 			<% } else { %>
 			<span>No hay Productos para mostrar</span>
 			<h3>Desea agregar uno </h3>
